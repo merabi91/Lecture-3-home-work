@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 75px;
+    color:blue
+}
+th{ 
+    border: 1px solid black;
+}
+td{ 
+    border: 1px solid black;
+    text-align: center;
+}
