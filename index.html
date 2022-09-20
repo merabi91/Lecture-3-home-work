@@ -1,148 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+    <title>მთავარი გვერდი</title>
 </head>
-<body>
-    <ul>
-        <li> <a href="#meotxe">პირველი გვერდი</a>
-        </li>
-        <li>მეორე გვერდი</li>
-        <li>მესამე გვერდი</li>
-    </ul>
-    <p><a href="https://www.google.com" target="_blank">test</a></p>
 
- <div id="pirveli">
-    <h2>ცხრილები</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>მოდელი</th>
-                <th>კომპანია</th>
-                <th>ფასი</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="3">iphone</td>
-                <td>apple</td>
-                <td>ღვიძლი</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">აქციაა 12 სექტემბრამდე</th>
-            </tr>
-        </tfoot>
-    </table>
- </div>
- <div id="meore">
-    <h2>ცხრილი1</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>მოდელი</th>
-                <th>კომპანია</th>
-                <th>ფასი</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="3">iphone</td>
-                <td>apple</td>
-                <td>ღვიძლი</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">აქციაა 12 სექტემბრამდე</th>
-            </tr>
-        </tfoot>
-    </table>
- </div>
- <div id="mesame">
-    <h2>ცხრილი2</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>მოდელი</th>
-                <th>კომპანია</th>
-                <th>ფასი</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="3">iphone</td>
-                <td>apple</td>
-                <td>ღვიძლი</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">აქციაა 12 სექტემბრამდე</th>
-            </tr>
-        </tfoot>
-    </table>
- </div>
- <div id="meotxe">
-    <h2>ცხრილი3</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>მოდელი</th>
-                <th>კომპანია</th>
-                <th>ფასი</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="3">iphone</td>
-                <td>apple</td>
-                <td>ღვიძლი</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-            <tr>
-                <td>iphone</td>
-                <td>apple</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">აქციაა 12 სექტემბრამდე</th>
-            </tr>
-        </tfoot>
-    </table>
- </div>
+<body>
+    <p>რეგისტრაცია/შესვლა</p>
+    <form method="post" action="https://localhost:8080/loging.php">
+        <div>
+            <input type="text" name="login" placeholder="სახელი გვარი"/>
+        </div>
+        <div>
+            <input type="password" name="login" placeholder="პაროლი"/>
+        </div>
+        <div>
+            <input type="email" name="login" placeholder="ელ ფოსტის მისამართი"/>
+        <div>
+            <input type="date" name="login" placeholder="დაბადების თარიღი"/>
+        </div>
+        <div>
+            <input type="number" name="login" placeholder="მობილური"/>
+        </div>
+        <div>
+            <input type="submit" name="login" placeholder="number"/>
+        </div>
+    </form>
+    <ul>
+        <!--გამოყოფილი მაქვს სამი გვერდი-->
+        <li> <a href="#მეხუთე სექცია">მთავარი გვერდი</a>
+        </li>
+        <li> <a href="blog.html">დაზღვევის შესახებ</a>
+        </li>
+        <li> <a href="tables.html">დაზღვევის ტიპები</a>
+        </li>
+    </ul>
+    <!--აქედან მთავარი გვერდი დაყოფილი მაქვს ხუთ სექციად -->
+    <div>
+        <img src="src/images.img/insurance.jpg" alt="დაზღვევის მთავარი ფოტო">
+    </div>
+    <div id="პირველი სექცია">
+        <P>
+            დაზღვევა არის ფინანსური ინსტრუმენტი იმისათვის, რომ დაგიცვათ თქვენ, თქვენი ოჯახი ან თქვენი ბიზნესი
+            გაუთვალისწინებელი ფინანსური დანახარჯებისაგან.
+            დაზღვევის დახმარებით შესაძლებელია პოტენციური რისკების დადგომის შედეგად წარმოქმნილი ფინანსური ზარალის თავიდან
+            აცილება ან მისი შემცირება.
+        </p>
+    </div>
+    <div id="მეორე სექცია">
+        <p>
+            <b>დაზღვევა</b> არის შეთანხმება, რომლის თანახმადაც წინასწარ განსაზღვრული თანხის გადახდის სანაცვლოდ,
+            სადაზღვევო ორგანიზაცია აგინაზღაურებთ შესაბამის ზიანს.
+        </p>
+    </div>
+    <div id="მესამე სექცია">
+        <p>
+            სადაზღვევო საქმიანობის ძირითადი პრინციპი ასეთია: <em>მზღვეველი</em> ანუ სადაზღვევო ორგანიზაცია აზღვევს
+            ფიზიკურ ან იურიდიულ პირს <i>(დაზღვეული)</i> იმ რისკებისაგან,
+            რომელთა წინაშეც ისინი შეიძლება აღმოჩდნენ და მათ <i>სადაზღვევო პოლისსა</i> და ხელშეკრულებას გადასცემს,
+            რომელშიც გაწერილია დაზღვევის პირობები.
+            დაზღვევის მისაღებად დამზღვევი პირები სადაზღვევო ორგანიზაციას წინასწარ შეთანხმებული პერიოდულობით უხდიან
+            სადაზღვევო პრემიას ანუ ფულად შენატანს.
+            სადაზღვევო შემთხვევის დადგომისას, ანუ წინასწარ განსაზღვრული რისკების რეალიზაციის შემთხვევაში,
+            სადაზღვევო ორგანიზაცია დაზღვეულ პირებს ხელშეკრულების პირობებისა და სადაზღვევო ლიმიტის შესაბამისად
+            უნაზღაურებს ზიანს.
+            სადაზღვევო ლიმიტი კი წინასწარ განისაზღვრება და ეთითება სადაზღვევო პოლისში.
+        </p>
+    </div>
+    <div id="მეოთხე სექცია">
+        <p სადაზღვევო პოლისი შეიძლება ითვალისწინებდეს <i>ფრანშიზას</i> ანუ ზიანის იმ მინიმალურ ოდენობას, რომელსაც
+            მზღვეველი არ აგინაზღაურებთ.
+            ფრანშიზა შეიძლება იყოს <i>პირობითი</i> ან <i>უპირობო.</i>
+        </p>
+    </div>
+    <div id="მეხუთე სექცია">
+        <p>
+            გაითვალისწინეთ, რომ ხარჯების ანაზღაურება არ ხდება ავტომატურად და საჭიროა დამზღვევმა პირმა მიმართოს
+            მზღვეველს.
+            ამასთან, მზღვეველი აგინაზღაურებთ მხოლოდ იმ ზარალს, რომელიც დადგა დაზღვეული რისკისაგან
+        </p>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>დაზღვევის ტიპები</title>
+</head>
+
+<body>
+    <!--დაზღვევის სახეობები და ტიპები მაქვს ცალკე გამოტანილი ცხრილის სახით-->
+    <h2>დაზღვევის სახეობები</h2>
+    <div id="დაზღვევის ცხრილი">
+        <table>
+            <thead>
+                <tr>
+                    <th><i>დაზღვევის ტიპი</i></th>
+                    <th><i>სახეობა</i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">პირადი ინტერესების დაზღვევა</td>
+                    <td>ჯანმრთელობის დაზღვევა</td>
+                </tr>
+                <tr>
+                    <td>სიცოცხლის დაზღვევა</td>
+                </tr>
+                <tr>
+                    <td>სამოგზაურო დაზღვევა</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="3">ქონებრივი ინტერესების დაზღვევა</td>
+                    <td>სასოფლო-სამეურნეო დაზღვევა (აგროდაზღვევა)</td>
+                </tr>
+                <tr>
+                    <td>ტრანსპორტის დაზღვევა</td>
+                </tr>
+                <tr>
+                    <td>სხვა სახის ქონების დაზღვევა</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">პასუხისმგებლობის დაზღვევა</td>
+                    <td>პროფესიული პასუხისმგებლობის დაზღვევა</td>
+                </tr>
+                <tr>
+                    <td>სამოქალაქო პასუხისმგებლობის დაზღვევა</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">დ ა ზ ღ ვ ე ვ ა გ ი ც ა ვ ს!</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <form method="post" action="https://localhost:8080/loging.php">
+        <div>
+            <input type="text" name="login" placeholder="სახელი გვარი"/>
+        <div>
+            <input type="number" name="login" placeholder="მობილური"/>
+        </div>
+        <div>
+            <input type="email" name="login" placeholder="ელ ფოსტა"/>
+        </div>
+        <div>
+            <label>
+                <smal>მოგვწერეთ წერილი</smal>
+            </label>
+        </div>
+        <div>
+            <textarea>
+               
+            </textarea>
+        </div>
+        <button>
+            გაგზავნა
+        </button>
+    </form>
+</body>
+
+</html>

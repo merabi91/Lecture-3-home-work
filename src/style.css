@@ -3,8 +3,7 @@ ul{
 }
 li{
     list-style: none;
-    margin-left: 75px;
-    color:blue
+    margin-left: 100px;
 }
 th{ 
     border: 1px solid black;
@@ -13,3 +12,9 @@ td{
     border: 1px solid black;
     text-align: center;
 }
+h2{
+   text-align: center;
+}
+h3{
+    color:aqua;
+ }
